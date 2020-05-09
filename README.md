@@ -11,7 +11,7 @@ You may also be interested in manually installing these optional extensions:
 
 ## Configuration
 
-Tthe following configuration is recommended (<kbd>F1</kbd> → `Preferences: Open Settings (JSON)`):
+The following configuration is recommended (<kbd>F1</kbd> → `Preferences: Open Settings (JSON)`):
 
 ```json
     "Lua.diagnostics.disable": [
