@@ -14,48 +14,47 @@ You may also be interested in manually installing these optional extensions:
 The following configuration is recommended (<kbd>F1</kbd> → `Preferences: Open Settings (JSON)`):
 
 ```json
-    "Lua.diagnostics.disable": [
-        "unused-local",
-        "lowercase-global",
-        "unused-function"
-    ],
-    "Lua.diagnostics.severity": {
-        "redefined-local": "Warning"
-    },
+    "Lua.runtime.version": "Lua 5.2",
     "Lua.diagnostics.globals": [
-        "printError",
-        "sleep",
-        "read",
-        "write",
-        "print",
-        "colours",
+        "bit",
         "colors",
+        "colours",
         "commands",
         "disk",
         "fs",
         "gps",
         "help",
         "http",
+        "keys",
+        "multishell",
         "paintutils",
         "parallel",
         "peripheral",
+        "pocket",
         "rednet",
         "redstone",
-        "keys",
+        "rs",
         "settings",
         "shell",
-        "multishell",
         "term",
         "textutils",
         "turtle",
-        "pocket",
         "vector",
-        "bit32",
         "window",
         "_CC_DEFAULT_SETTINGS",
         "_HOST",
-        "_VERSION",
-        "_"
+        "printError",
+        "write",
+        "read",
+        "sleep"
     ],
-    "Lua.runtime.version": "Lua 5.1",
+    "Lua.runtime.builtin": {
+        "bit32": "enable",
+        "bit": "disable",
+        "utf8": "enable"
+    },
+    "Lua.diagnostics.disable": [
+        "undefined-field",
+        "deprecated"
+    ],
 ```
