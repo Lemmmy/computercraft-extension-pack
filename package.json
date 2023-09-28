@@ -15,5 +15,6 @@
     "extensionPack": [
         "jackmacwindows.vscode-computercraft",
         "sumneko.lua"
-    ]
+    ],
+    "license": "MIT"
 }
